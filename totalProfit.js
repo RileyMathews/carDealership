@@ -4,7 +4,6 @@ const profitReport = () => {
     transactions.forEach(sale => {
         profit += sale.gross_profit
     });
-    return profit
+    return `Total profit was $${profit}`
 }
 
-console.log(profitReport())

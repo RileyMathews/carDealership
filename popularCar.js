@@ -21,7 +21,5 @@ const popularCarReport = () => {
         }
     })
     mostPopularCar = cars[mostPopularCarIndex]
-    console.log(`${mostPopularCar} was the most popular car`)
+    return `${mostPopularCar} was the most popular car`
 }
-
-popularCarReport()

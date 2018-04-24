@@ -21,7 +21,6 @@ const salesPersonReport = () => {
         }
     })
     mostSellingEmployee = employees[mostSellingEmployeeIndex]
-    console.log(`${mostSellingEmployee} sold the most cars`)
+    return `${mostSellingEmployee} sold the most cars`
 }
 
-salesPersonReport()

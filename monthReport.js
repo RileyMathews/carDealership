@@ -17,7 +17,6 @@ const monthReport = () => {
         } 
     })
     bestMonth = months[bestMonthIndex]
-    console.log(`The best month of sales was ${bestMonth}`)
+    return `The best month of sales was ${bestMonth}`
 }
 
-monthReport()

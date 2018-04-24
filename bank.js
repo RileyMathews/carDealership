@@ -21,7 +21,5 @@ const bankReport = () => {
         }
     })
     mostUsedBank = banks[mostUsedBankIndex]
-    console.log(`${mostUsedBank} was the most used bank`)
+    return `${mostUsedBank} was the most used bank`
 }
-
-bankReport()

@@ -21,7 +21,6 @@ const employeeProfitReport = () => {
         }
     })
     mostEmployeeProfit = employees[mostSellingEmployeeIndex]
-    console.log(`${mostEmployeeProfit} had the most profit`)
+    return `${mostEmployeeProfit} had the most profit`
 }
 
-employeeProfitReport()
